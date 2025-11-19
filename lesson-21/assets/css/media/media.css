@@ -1,0 +1,23 @@
+@import url('max-width1399px.css');
+@import url('max-width1199px.css');
+@import url('max-width991px.css');
+@import url('max-width767px.css');
+@import url('max-width575px.css');
+
+@import url('min-width576px.css');
+@import url('min-width768px.css');
+@import url('min-width992px.css');
+@import url('min-width1200px.css');
+@import url('min-width1400px.css');
+
+@media (orientation: landscape) {
+    .banner .container {
+     padding: 20px 101px;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     align-items: start;
+     justify-content: center;
+    } 
+ }
+ 

@@ -1,0 +1,25 @@
+@media only screen and (max-width: 767.98px) {
+    .banner .container {
+        padding: 20px 12px 20px;
+    }
+
+    .banner-title {
+        font-size: 36px;
+    }
+
+    .banner-subtitle {
+        font-size: 28px;
+    }
+
+    .banner-description {
+        font-size: 18px;
+        margin: 0 auto 24px;
+    }
+
+    .banner-link,
+    input {
+       font-size: 18px;
+       padding: 20px 30px;
+       max-width: 75%;
+    }
+}

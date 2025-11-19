@@ -1,0 +1,63 @@
+@media only screen and (max-width: 1199.9px) {
+    .banner .container {
+        padding: 230px 12px;
+     }
+    
+     .banner-title {
+        font-size: 56px;
+     }
+    
+     .banner-subtitle {
+        font-size: 44px;
+     }
+
+    .tariff {
+      padding: 82px 0 112px;
+    }   
+
+   .tariff-title {
+      margin-bottom: 60px;
+      font-size: 38px;
+   }
+   
+    .tariff-row {
+      gap: 18px;
+    }
+
+    .tariff-column{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .tariff-column__status {
+      margin-bottom: 25px;
+    }
+
+    .tariff-column__title{
+      font-size: 25px;
+      margin-bottom: 24px;
+    }
+
+    .tariff-column__status {
+      padding: 14px 15px;
+    }
+    
+    .tariff-advantages-item {
+      font-size: 14px;
+      margin-bottom: 11px;
+    }
+
+    .tariff-price {
+      margin-top: auto;
+      font-size: 38px;
+    }
+
+    .tariff-price span:after {
+      font-size: 32px;
+    }
+
+    .tariff-buy {
+      font-size: 15px;
+      padding: 18px 24px;
+    }
+  }

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@media</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <main>
+        <h1 class="page-title">CSS @media</h1>
+        <section class="example">
+            <div class="container">
+              <h2 class="example-title">@media only screen and (max-width: 767.9px) { ... }</h2>
+              <div class="media media_max-width">
+                 <div class="true">true</div>
+                 <div class="false">false</div>
+                 <h4>Dektop first</h4>
+                 <i>если 767.9px или меньше</i>
+              </div>
+            </div>
+        </section>
+
+        <section class="example">
+            <div class="container">
+              <h2 class="example-title">@media only screen and (min-width: 768px) { ... }</h2>
+              <div class="media media_min-width">
+                <div class="true">true</div>
+                <div class="false">false</div>
+                <h4>Mobile first</h4>
+                <i>если 768px или больше</i>
+              </div>
+            </div>
+        </section>
+
+    <section class="example">
+            <div class="container">
+              <h2 class="example-title">@media only screen and (min-width: 768px) and (max-width: 1199.9px)</h2>
+              <div class="media media_diapason">
+                <div class="true">true</div>
+                <div class="false">false</div>
+                <i>если 768px или больше</i>
+              </div>
+            </div>
+        </section>
+
+    </main>
+
+    <a href="nav.html" class="navigation-link">nav</a>
+    <script src="./assets/js/script.js"></script>
+    
+</body>
+</html>    

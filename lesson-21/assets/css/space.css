@@ -1,0 +1,129 @@
+.page-farm {
+    background-color: #000;
+}
+
+.farm {
+    min-height: 100vh;
+}
+
+.farm-1 {
+    background: url(../img/farm.avif) center/cover no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.svg-cow {
+    max-width: 350px;
+    height: 280px;
+}
+
+.svg-cow * {
+    transition: .4s;
+}
+
+.cow-group:hover .cow-head {
+    transform: translate(-5px, -5px) rotate(8deg);
+}
+
+.cow-head:hover .glasses {
+    transform: translate(17px, 0px) rotate(8deg);
+}
+
+.glasses_lens{
+    fill: #a910c782;
+}
+
+.glasses_frame {
+    stroke:#6c0303;
+    stroke-width: 2px;
+}
+
+.body-main {
+    fill: #8a3d01d4;
+}
+
+.mouth {
+    fill: #c1b4b4fc;
+}
+
+.head {
+    fill: #8f5018;
+}
+
+.spot {
+    fill: #000;
+}
+
+.spot-2 {
+    fill: #000;
+}
+
+.spot-3 {
+    fill: #a69191;
+}
+
+.udder {
+    fill: #ba7474;
+}
+
+.hoof {
+    fill: #743504;
+}
+
+.hoof-2 {
+    fill: #391a02;
+}
+
+.svg-lama {
+    max-width: 350px;
+    height: 280px;
+}
+
+.lama-body {
+    fill: #d76909;
+    animation: lama-body 5s infinite alternate;
+}
+
+.tail {
+    animation: tail 2s infinite alternate;
+ 
+}
+
+.lama-body-main:hover .lama-legs {
+    transform: translate(25px, -25px) rotate(8deg);
+}
+
+@keyframes lama-body {
+    0%{
+        fill: #743504;
+    }
+
+    25% {
+        fill: #391a02;
+    }
+
+    50% {
+        fill: #ba7474;
+    }
+
+    75% {
+        fill: #d76909;
+    }
+
+    100% {
+        fill: #731f1f;
+    }
+}
+
+@keyframes tail {
+    0%, 50%, 100% {
+        transform: rotateY(5deg);
+    }
+
+    25%, 75% {
+        transform: rotateY(-15deg);
+    }
+
+}

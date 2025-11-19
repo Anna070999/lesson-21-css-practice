@@ -1,0 +1,225 @@
+.banner {
+    background-color: #000000;
+    color: #fff;
+}
+
+.banner .container {
+    padding:330px 571px 210px 93px ;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: right calc(100% + 2px);
+}
+
+.banner-title {
+    font-size: 64px;
+    line-height: 1;
+    font-weight: 800;
+    margin-bottom: 28px;
+}
+
+.banner-subtitle {
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 800;
+    margin-bottom: 28px;
+}
+
+.banner-description {
+    font-size: 25px;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom: 52px;
+    max-width: 614px;
+}
+
+.banner-link {
+    background-color: #fff;
+    border: 2px solid #fff;
+    font-size: 24px;
+    line-height: 1;
+    color: #000;
+    display: inline-block;
+    padding: 24px 48px;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: .3s;
+}
+
+.banner-link:hover {
+    background-color: #575fcf;
+    color: #ffffff;
+    border: 2px solid #575fcf ;
+}
+
+.banner-link:focus {
+    background-color: #07970f;
+    color: #ffffff;
+    border: 2px solid #07970f;
+}
+
+.banner-link:active {
+    background-color: #6c0303;
+    color: #ffffff;
+    border: 2px solid #6c0303 ;
+}
+
+.tariff {
+    color: #2E3A59;
+    font-family: "Montserrat";
+    background: url("data:image/svg+xml,%3Csvg width='1692' height='853' viewBox='0 0 1692 853' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath id='Vector 2860' d='M51.5948 143.88C259.599 -514.918 1459.42 1371.83 1648.27 706.624C1708.06 496.025 1704.44 349.989 1631.98 143.88C1405.21 -501.177 259.599 1358.7 51.5948 706.624C-14.836 498.368 -14.2265 352.351 51.5948 143.88Z' stroke='%2300AFFA' stroke-width='4'/%3E%3C/svg%3E%0A") center / contain no-repeat #F5F9FF;
+    padding: 112px 0 142px;
+}
+
+.tariff-title {
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 46px;
+    font-weight: 800;
+}
+
+.tariff-title span {
+    position: relative;
+}
+
+.tariff-title span:after,
+.tariff-title span:before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 8px;
+    top: -4px;
+    left: -28px;
+    background-color: #FB8500;
+    transform: rotate(-43deg);
+}
+
+.tariff-title span:after {
+    right: -28px;
+    bottom: -4px;
+    top: inherit;
+    left: inherit;
+}
+
+.tariff-row {
+    display: flex;
+    gap: 36px;
+}
+
+.tariff-column {
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px 55px 5px 55px;
+    box-shadow: 0px 20px 35px #00000014;
+}
+
+.tariff-column__status {
+    background-image: linear-gradient(163deg, #05ffff 0%, #0aa6fe 100%);
+    box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 5px 55px 0 55px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    padding: 22px 15px;
+    font-size: 20px;
+}
+
+.tariff .tariff-column__status {
+    margin-bottom: 50px;
+}
+
+.tariff-column__status_standart {
+    background-image: linear-gradient(79deg, #dda6ff 0%, #d828f4 100%);
+}
+
+.tariff-column__status_pro {
+    background-image: linear-gradient(162deg, #ff9898 0%, #ff1f00 100%);
+}
+
+.tariff-column__title {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.tariff-advantages {
+    font-size: 18px;
+    max-width: 368px;
+    margin: 0 auto 30px;
+    text-align: left;
+    padding: 0 24px;
+}
+
+.tariff-advantages-item {
+    margin-bottom: 24px;
+    padding-left: 38px;
+    position: relative;
+}
+
+.tariff-advantages-item:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 24px;
+    height: 18px;
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='18' viewBox='0 0 24 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.00054 18L0 10.1248L2.28541 7.8752L8.00296 13.4968L8.00054 13.4992L21.7146 0L24 2.2496L10.2859 15.7504L8.00216 17.9984L8.00054 18Z' fill='%2300D121' /%3E%3C/svg%3E");
+}
+
+.tariff-advantages-item_close:before {
+    width: 20px;
+    height: 18px;
+    background-image: url("data:image/svg+xml,%3Csvg width='19' height='19' viewBox='0 0 19 19' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17.0864 0.723633L9.5 7.88964L1.91357 0.723633L0 2.53116L7.58643 9.69716L0 16.8632L1.91357 18.6707L9.5 11.5047L17.0864 18.6707L19 16.8632L11.4136 9.69716L19 2.53116L17.0864 0.723633Z' fill='%23FF3D00' /%3E%3C/svg%3E");
+}
+
+.tariff-price {
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 18px;
+    position: relative;
+}
+
+.tariff-price span {
+    position: relative;
+}
+
+.tariff-price span:after {
+    content: "$";
+    position: absolute;
+    right: -34px;
+    top: -12px;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.tariff-buy {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 18px;
+    box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);
+    background-image: linear-gradient(157deg, #ff9b05 0%, #ff8f3f 100%);
+    text-decoration: none;
+    color: #fff;
+    border-radius: 0 0 5px 55px;
+    padding: 24px;
+}
+
+.tariff-buy .svg-icon {
+    margin-left: 32px;
+}
+
+.svg-icon {
+    width: 36px;
+    height: 36px;
+}
+
+.svg-icon_arrow {
+    width: 47px;
+    height: 24px;
+}
+
+.tariff-row {
+    gap: 28px;
+}
